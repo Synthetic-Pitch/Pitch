@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+}
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.header div{
+  color: white;
+  font-size: 20px;
+}
+.piano-icon{
+  position: relative;
+  right: 100px;
+  height: 30px;
+  filter: invert(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-container{
+  width: 100%;
+  margin-top: 70px;
+  background-image: url('./asset/LSJD3.png');
+}
+.song{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin: 0;
+}
+.song p{
+  display: flex;
+  justify-content: center;
+  background: rgb(96, 96, 96);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+hr{
+  margin: none;
+  margin-top: 20px;
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: white;
+  padding-bottom: 0;
+}
+
+.audio{
+  height: 40px;
+}
+.piano{
+  height: 100%;
+  width: 100%;
+}
+.tulip{
+  height: 40px;
+  width: 40;
+}
+.name{
+  letter-spacing: 2px;
+}
+
+
+/* 2nd FILE */
+
+
+.audio-container-guitar{
+  width: 100%;
+  margin-top: 70px;
+  display: none;
+  background-image: url('./asset/LSJD3.png');
+ 
+}
+
+.tulip-change{
+  filter: hue-rotate(280deg);
+  height: 40px;
+  width: 40;
+}
